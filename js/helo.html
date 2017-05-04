@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Useless</title>
+<script type='text/javascript' src='js/jquery-1.9.0.min.js'></script>
+</head>
+<body>
+Hello
+<script type="text/javascript">
+jQuery.ajax({
+        url: "side.html",
+        success: function(result) {
+            html = jQuery(result);
+
+            alert(html.find("div#a").attr("id"));
+            alert(html.find("div#a").html());
+            alert(html.find("div#a"));
+
+        },
+    });
+</script>
+</body>
+</html>

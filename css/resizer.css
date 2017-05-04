@@ -1,0 +1,18 @@
+
+.resize-sm { font-size: .8em; }
+
+.resize-md { font-size: 1em; }
+
+.resize-lg { font-size: 1.5em; }
+
+.animate {
+  -webkit-transition: font-size 0.5s;
+  -moz-transition: font-size 0.5s;
+  -o-transition: font-size 0.5s;
+  -ms-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+
+.resizer li { cursor: pointer; }
+
+.active { text-decoration: underline; }
